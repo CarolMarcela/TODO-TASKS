@@ -18,7 +18,7 @@ environment = {
     DBMONGO: process.env.DBMONGO,
 };
 
-var query = 'mongodb+srv://' + environment.DBMONGOUSER + ':' + environment.DBMONGOPASS + '@' + environment.DBMONGOSERV + '/' + environment.DBMONGO + '?retryWrites=true&w=majority&appName=jucamero';
+var query = 'mongodb+srv://' + environment.DBMONGOUSER + ':' + environment.DBMONGOPASS + '@' + environment.DBMONGOSERV + '/' + environment.DBMONGO + '?retryWrites=true&w=majority&appName=CarolMarcela';
 
 //Este enlace de abajo se elimina, porque se reemplaza con las variables del arcivho .env
 //var query = mongodb+srv://carolmarcela0930:CarolMarcela0930@carolmarcela.vgshhpl.mongodb.net/?retryWrites=true&w=majority&appName=CarolMarcela
